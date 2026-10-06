@@ -1,5 +1,4 @@
-# Live Screen Translator
-
+# SnipLingo: A SnapShot-based Live Translator
 Select an area of your screen once, and this app keeps reading the text inside it and translating it whenever it changes. Think of it as screen snipping that never stops. It works well for video subtitles, game chat, foreign-language websites and apps.
 
 - **Live**: re-checks the area every second (adjustable) and only translates when the text changes.
