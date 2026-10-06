@@ -108,6 +108,18 @@ python diagnose.py
 - Translation uses Google Translate's **unofficial, free web endpoint** (no API key). It is fine for personal use, but it can be rate-limited or change without notice, and it is not suitable for heavy or commercial use. For that, swap `translate()` in `live_translate.py` for an official API such as Google Cloud Translation, DeepL or Azure.
 - Text on screen is sent to Google for translation. Don't use it on sensitive content.
 
+## Roadmap
+
+Small, realistic improvements I'd like to make. Nothing here is promised.
+
+- [ ] **Refurbished Frontend**: make the app looks prettier
+- [ ] **Multi-monitor support**: select areas on any screen, not just the primary one
+- [ ] **Remember the last scan area** so it can be restored on the next launch
+- [ ] **Custom hotkeys** in the settings instead of fixed key combinations
+- [ ] **Save translations to a file** (copy or export the history as text)
+- [ ] **Optional official translation APIs** (for example DeepL or Google Cloud) with your own API key, as a more reliable alternative to the free endpoint
+- [ ] **Packaged `.exe`** so Python isn't needed to run it
+ 
 ## Contributing
 
 Issues and pull requests are welcome. Ideas: multi-monitor support, a system tray icon, a pluggable translation backend, and a packaged `.exe`.
