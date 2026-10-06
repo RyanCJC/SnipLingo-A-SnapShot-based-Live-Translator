@@ -1,0 +1,4 @@
+pillow>=10.0
+winocr>=0.0.3
+deep-translator>=1.11
+keyboard>=0.13.5

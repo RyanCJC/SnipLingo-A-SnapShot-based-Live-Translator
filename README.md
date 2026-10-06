@@ -7,7 +7,7 @@ Select an area of your screen once, and this app keeps reading the text inside i
 - **Compact mode**: shrink the window to a small always-on-top box that shows only the translated text.
 - **Remembers your settings** between runs.
 
-<!-- Add a screenshot or GIF here: docs/demo.gif -->
+![Example of usage](Images/image.png)
 
 ## Requirements
 
@@ -19,8 +19,8 @@ Select an area of your screen once, and this app keeps reading the text inside i
 ## Install
 
 ```bash
-git clone https://github.com/<your-username>/live-screen-translator.git
-cd live-screen-translator
+git clone https://github.com/RyanCJC/SnipLingo-A-SnapShot-based-Live-Translator.git
+cd SnipLingo
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
